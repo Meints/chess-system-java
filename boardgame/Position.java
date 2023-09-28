@@ -29,4 +29,9 @@ public class Position {
     public void setRow(int row) {
         this.row = row;
     }
+
+    public void setValues(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }
 }
